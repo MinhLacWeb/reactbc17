@@ -9,10 +9,10 @@ import HomeComponent from './components/BaiTapLayout/HomeComponent';
 function App() {
   return (
     <div className='App'>
-      {/* <HomeComponent /> */}
+      <HomeComponent />
       <DataBinding />
-    {/* <HeaderClass />
-    <HeaderFunc /> */}
+    <HeaderClass />
+    <HeaderFunc />
       <HandleEvent />
     </div>
   );
