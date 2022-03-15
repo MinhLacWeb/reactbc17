@@ -9,6 +9,9 @@ import HomeComponent from './components/BaiTapLayout/HomeComponent';
 import Ex1statedemo from './StateDemo/Ex1StateDemo';
 import Renderwithmap from './RenderWithMap/RenderWithMap';
 import Quanlydanhsachphim from './RenderWithMap/QuanLyDanhSachPhim';
+import Demoprops from './Props/DemoProps/DemoProps';
+import Shoesshop from './ShoesShop/ShoesShop';
+import BaiTapXemChiTietSP from './Props/BaiTapXemChiTietSP/BaiTapXemChiTietSP';
 
 function App() {
   return (
@@ -20,8 +23,11 @@ function App() {
       <HeaderFunc />
       <HandleEvent />
       <Ex1statedemo />
-      <Renderwithmap /> */}
+      <Renderwithmap />
       <Quanlydanhsachphim />
+      <Demoprops />
+      <Shoesshop /> */}
+      <BaiTapXemChiTietSP />
     </div>
   );
 }
