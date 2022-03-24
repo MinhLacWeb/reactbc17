@@ -12,22 +12,30 @@ import Quanlydanhsachphim from './RenderWithMap/QuanLyDanhSachPhim';
 import Demoprops from './Props/DemoProps/DemoProps';
 import Shoesshop from './ShoesShop/ShoesShop';
 import BaiTapXemChiTietSP from './Props/BaiTapXemChiTietSP/BaiTapXemChiTietSP';
+import DataBindingFunc from './DataBinding/DataBindingFunc';
+import BaiTapGioHangRedux from './DemoRedux/BaiTapGioHangRedux/BaiTapGioHangRedux';
+import GameXucXac from './DemoRedux/GameXucXac/GameXucXac';
+import BaiTapQuanLyNguoiDung from './ReactForm/BaiTapQuanLyNguoiDung/BaiTapQuanLyNguoiDung';
 
 function App() {
   return (
     <div className='App'>
-      {/* <HomeComponent />
-      <Rendering_Conditions />
-      <DataBinding />
-      <HeaderClass />
-      <HeaderFunc />
-      <HandleEvent />
-      <Ex1statedemo />
-      <Renderwithmap />
-      <Quanlydanhsachphim />
-      <Demoprops />
-      <Shoesshop /> */}
-      <BaiTapXemChiTietSP />
+      {/* <HomeComponent /> */}
+      {/* <Rendering_Conditions /> */}
+      {/* <DataBinding /> */}
+      {/* <DataBindingFunc /> */}
+      {/* <HeaderClass /> */}
+      {/* <HeaderFunc /> */}
+      {/* <HandleEvent /> */}
+      {/* <Ex1statedemo /> */}
+      {/* <Renderwithmap /> */}
+      {/* <Quanlydanhsachphim /> */}
+      {/* <Demoprops /> */}
+      {/* <Shoesshop /> */}
+      {/* <BaiTapXemChiTietSP /> */}
+      {/* <BaiTapGioHangRedux /> */}
+      <GameXucXac />
+      {/* <BaiTapQuanLyNguoiDung /> */}
     </div>
   );
 }

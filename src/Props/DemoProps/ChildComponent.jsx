@@ -7,7 +7,8 @@ class Childcomponent extends Component {
 
             */
         let {maSP,tenSanPham,gia,hinhAnh} = this.props.product;
-
+        //bóc tách phần tử trong es 6
+        //maSP = this.props.product.maSP
         return (
             <div className='card'>
                 <p>{maSP}</p>

@@ -3,14 +3,14 @@ import React, { Component } from "react";
 
 class RenderingConditions extends Component {
   userName = "LacMinh";
-
   /*
     
     state là thuộc tính có sẵn của react clas component để quản lý các giá trị thay đổi trên giao diện khi người dùng thao tác (event)
     
   */
-
-    state = {
+  // isLogin = false;
+  
+    state = {     //gán cho state giá trị isLogin
         isLogin: false
     }
 
@@ -31,18 +31,19 @@ class RenderingConditions extends Component {
 
   handleLogin(){
      
-    //this.state.isLogin = true;  không được gán giá trị như thế này
+    // this.isLogin = true;  //không được gán giá trị như thế này
+    // console.log(this.isLogin);
       /*
         this.setState là phương thức có sẵn của react clas component dùng để thay đổi giá trị của state. 
         Hàm setState sẽ nhân vào giá trị state mới và gọi lại hàm render => giao diện thay đổi
         this.setState: là 1 hàm bất đồng bộ, khi nó xử lý thì các đoạn code phía sau vẫn tiếp tục thực thi
       
       */
-
+      
         // let newState = { isLogin : true} ;
         this.setState({isLogin : true }, () => {
             //Hàm sẽ chạy sau khi state thay đổi và giao diện render xong
-            console.log(this.state);
+            console.log("code");
         });
         
         // console.log(this.state)
